@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Franco Di Mascio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="cssFiles/portfolio/style.css">
+
+    <!-- icon link -->
+    <link rel="icon" href="imagesFiles/portfolio/iconDev1.ico">
+
+</head>
+<body>
+    
+    <!-- header design -->
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <!-- <a href="#services">Services</a> -->
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <a href="indexSpanish.html"><i class='bx bx-world'></i></a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Franco Di Mascio</h1>
+            <h3>And I'm a</h3>
+            <h3><span class="multiple-text"></span></h3>
+            <p>Welcome to my portfolio as a Frontend Developer. 
+                 I'm glad that you are checking around here. Follow me on my social media down bellow</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/francodimascio"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/Franco_DiMascio"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/francodimascio5/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/franco-di-mascio-Code-dev/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a download="Currículum Franco Di Mascio PDF" href="files/Currículum Franco Di Mascio PDF.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="imagesFiles/portfolio/home.png" alt="Franco Di Mascio">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="imagesFiles/portfolio/about5.png" alt="">
+            <!-- Needed case: https://i.ibb.co/87kkGKM/about5.png -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Junior Frontend Developer</h3>
+            <div class="about-out" id="about-out">
+                <h4>¿How did I find out about programming?</h4>
+                <p>When I was 17 years old I was in an online game called Tibia, this game became my favorite for a long time...</p>
+                <h4>¿What are my skills?</h4>
+                <p>Java Level: ...</p>
+                <h4>¿Short and long aspirations?</h4>
+                <p>In the short term, have a firm and solid foundation ...</p>
+                <h4>Hobbies</h4>
+                <p>...</p>
+            </div>
+            <div class="about-more-info-hidden" id="about-more-info">
+                <h4>¿How did I find out about programming?</h4>
+                <p>When I was 17 years old I was in an online game called Tibia, this game became my favorite for a long time, inevitably I found some players who moved automatically, structuredly and did not respond to my messages, which led me to investigate further. Over time I discovered that they were characters called "Bot's", which were programmed by people who, like me, they were in love with the game and were a developer/programmer as a profession. This is how I got to know programming, since then it always amazed me and caught my attention, by then I saw it as complex, a year later I started trying to program a "Bot" in LUA language, being extremely difficult but having success, surprising so to some of the people who programmed because of my poorly written, inexperienced but incredibly creative and effective code. For some reason I didn't think I could learn it on my own. I had a few other attempts but the more functions it was more complex without an education... as the years passed, I looked at programming as a dream that captured my attention a lot but I had not proposed it as a purpose to learn. Many years later, calmly I realized that I had an ability to program but I was not able to see it clearly at that time, with this came the fact of investigating more and seeing it as a profession acquiring my first Java course on Udemy. Then I learned Python (so far one of the ones I've loved the most) and finally decided to learn frontend; HTML, CSS, JavaScript and along with backend using Python (flask), MYSQL.</p>
+
+                <h4>¿What are my skills?</h4>
+                <ul>
+                    <li>Java Level: basic</li>
+                    <li>Python  Level: medium</li>
+                    <li>HTML Level: advanced</li>
+                    <li>CSS Level: medium - advanced</li>
+                    <li>JavaScript Level: basic</li>
+                </ul>    
+
+                <h4>Hobbies</h4>
+                <ul>
+                    <li>Soccer</li>
+                    <li>activities with my daughter</li>
+                    <li>Gaming</li>
+                    <li>meditation / reading</li>
+                </ul>
+
+                <h4>¿Short and long aspirations?</h4>
+                <p>In the short term, have a firm and solid foundation regarding frontend and backend knowledge, thus having specific knowledge, outlined and oriented to the same horizon, allowing me to provide the company that hires me or the person who hires my services with management complete with vast knowledge.</p>
+                <p>In the long term, my dream is to dedicate completely to computer security, also known as Ethical Hacking. I find this my greatest passion and motivation in the world of programming because I have always been a very detailed and analytical person regarding what I really like, and in this area the programmer's ability to perceive needs/goals and digest them is essential, considering that I can have creative perspectives regarding handling a problem, need or a solution.</p> 
+            </div>
+
+            <button onclick="moreInfoAbout()" class="btn" id="moreInfoAbout-id">Read More</button>
+
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <!-- <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum 
+                architecto nostrum quod exercitationem 
+                    ducimus tenetur velit aut deserunt voluptatum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint' ></i>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum 
+                architecto nostrum quod exercitationem 
+                    ducimus tenetur velit aut deserunt voluptatum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas earum 
+                architecto nostrum quod exercitationem 
+                    ducimus tenetur velit aut deserunt voluptatum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Lastest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="imagesFiles/portfolio/portfolio1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <h4>Landing Page</h4>
+                    <p>Tech_Shop</p>
+                    <a href="htmlFiles/landingPageTech_Shop/index.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="imagesFiles/portfolio/portfolio2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <h4>Data base/Stock</h4>
+                    <p>Shop Shoes</p>
+                    <a href="htmlFiles/tiendasShoes/index.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="imagesFiles/portfolio/portfolio3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <h4>Family Album</h4>
+                    <p>Di Maquino Family Album</p>
+                    <a href="htmlFiles/album/index.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form id="form" action="#">
+
+            <div class="input-box">
+                <input type="text" name="name" id="name" required placeholder="Full Name">
+                <input type="email" name="email" id="email" required placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" id="number" placeholder="Mobile Number" class="mobile">
+                <input type="text" name="email-subject" id="email-subject" required placeholder="Email Subject">
+            </div>
+            <textarea name="message" id="message" required cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        
+        </form>
+
+        <a href="" class="trick" id="trick"></a>
+    
+    </section>
+
+    <!-- footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; | All Rights Reserved. </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="javascriptFiles/portfolio/script.js" ></script>
+</body>
+</html>
