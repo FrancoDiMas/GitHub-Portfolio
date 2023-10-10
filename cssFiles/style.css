@@ -347,6 +347,10 @@ span {
     border-radius: 50%;
 }
 
+.portfoli-layer-a-edited {
+    margin: .2rem;
+}
+
 .portfolio-layer i {
     font-size: 2rem;
     color: var(--second-bg-color);
