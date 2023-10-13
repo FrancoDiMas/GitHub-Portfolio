@@ -67,7 +67,7 @@ $form.addEventListener('submit', handleSubmit);
 function handleSubmit(event){
     event.preventDefault()
     const form = new FormData(this)
-    $buttomMailTo.setAttribute('href', `mailto:francodimascio@hotmail.com?subject=nombre ${form.get('name')} correo ${form.get('email')}&body=${form.get('message')}`)
+    $buttomMailTo.setAttribute('href', `mailto:francodimascio@hotmail.com?subject=Nombre: ${form.get('name')}. Correo: ${form.get('email')}&body=${form.get('message')}`)
     $buttomMailTo.click()
 }
 
